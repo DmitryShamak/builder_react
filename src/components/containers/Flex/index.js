@@ -7,7 +7,7 @@ import FlexColView from './FlexCol.jsx';
 import FlexStyles from './styles';
 const styles = StyleSheet.create(FlexStyles);
 
-module.exports.FlexRow = class FlexRow extends Component {
+module.exports.FlexRow = class extends Component {
     constructor(props) {
         super(props);
 
@@ -15,7 +15,7 @@ module.exports.FlexRow = class FlexRow extends Component {
     }
 };
 
-module.exports.FlexCol =  class FlexCol extends Component {
+module.exports.FlexCol =  class extends Component {
     constructor(props) {
         super(props);
 
